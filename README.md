@@ -5,6 +5,7 @@ A collection of numerical methods for solving ordinary differential equations (O
 This is a periodic symmetric orbit where the particles follow a figure eight trajectory in the
 plane. The orbit is such that the three masses chase one another around a single figure-eight shaped
 curve.
+![Three-Body Figure-Eight Orbit](Three-body-ODE/three_body_figure_eight.gif)
 
 ## Directory Structure
 ```text
