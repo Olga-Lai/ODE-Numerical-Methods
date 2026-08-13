@@ -126,20 +126,15 @@ ax.set_ylabel("y")
 ax.set_title("Three-Body Figure-Eight Orbit")
 ax.grid()
 
-# Moving trails
-trail1, = ax.plot([], [], "-", alpha=0.5)
-trail2, = ax.plot([], [], "-", alpha=0.5)
-trail3, = ax.plot([], [], "-", alpha=0.5)
-
 # Moving bodies
-body1, = ax.plot([], [], "o", markersize=8)
-body2, = ax.plot([], [], "o", markersize=8)
-body3, = ax.plot([], [], "o", markersize=8)
+body1, = ax.plot([], [], "o", markersize=8, label="Body 1")
+body2, = ax.plot([], [], "o", markersize=8, label="Body 2")
+body3, = ax.plot([], [], "o", markersize=8, label="Body 3")
 
-# Fixed legend
-ax.plot([], [], "o", label="Body 1")
-ax.plot([], [], "o", label="Body 2")
-ax.plot([], [], "o", label="Body 3")
+# Trails use the same colors as the bodies
+trail1, = ax.plot([], [], "-", color=body1.get_color(), alpha=0.5)
+trail2, = ax.plot([], [], "-", color=body2.get_color(), alpha=0.5)
+trail3, = ax.plot([], [], "-", color=body3.get_color(), alpha=0.5)
 
 ax.legend(loc="upper right")
 
