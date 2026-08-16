@@ -6,6 +6,7 @@ This is a periodic, symmetric orbit in which the three bodies follow a figure-ei
 <p align="center">
   <img src="Three-body-ODE/figure_eight.gif" width="650">
 </p>
+
 ## Perturbed Figure-Eight Orbit
 The figure-eight orbit is a special periodic solution of the three-body problem. Its periodic motion depends strongly on the initial conditions. To demonstrate this sensitivity, a small perturbation of +0.05 is added only to the x-component of Body 1's initial velocity.
 
