@@ -5,6 +5,13 @@ A collection of numerical methods for solving ordinary differential equations (O
 This is a periodic, symmetric orbit in which the three bodies follow a figure-eight trajectory in the plane. The three bodies chase one another along the same figure-eight-shaped curve.
 ![Three-Body Figure-Eight Orbit](Three-body-ODE/figure_eight.gif)
 
+## Perturbed Figure-Eight Orbit
+The figure-eight orbit is a special periodic solution of the three-body problem. Its periodic motion depends strongly on the initial conditions. To demonstrate this sensitivity, a small perturbation of +0.05 is added only to the x-component of Body 1's initial velocity.
+
+
+Although only one component of the initial conditions is changed, the trajectories gradually deviate from the original periodic figure-eight orbit, demonstrating the sensitivity of the three-body system to initial conditions.
+![Three-Body Figure-Eight Orbit](Three-body-ODE/perturbed_figure_eight.png)
+
 ## Sun-Earth Lagrange Point Orbits
 We consider the Sun-Earth system and place a satellite at L1. The five Lagrange points are locations where the gravitational effects of the Sun and Earth, together with the rotating-frame effect, allow a small object to remain stationary relative to the Sun and Earth in the ideal circular restricted three-body model.
 
