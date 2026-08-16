@@ -22,12 +22,11 @@ x2, y2 =  0.97000436, -0.24308753
 x3, y3 =  0.0,          0.0
 
 # Initial Velocities
+#epsilon = 0.05  # Perturbed
+#vx1, vy1 =  0.466203685+epsilon,  0.432365730
 vx1, vy1 =  0.466203685,  0.432365730
 vx2, vy2 =  0.466203685,  0.432365730
 vx3, vy3 = -0.93240737,  -0.86473146
-
-from google.colab import drive
-drive.mount('/content/drive')
 
 initial_state = [
     x1, y1, vx1, vy1,
@@ -75,6 +74,7 @@ def three_body_ode(t, state):
 
 t_start = 0.0
 t_end = 2 * 6.3259
+#t_end = 50 # Perturbed
 
 t_eval = np.linspace(t_start, t_end, 2000)
 
@@ -107,10 +107,19 @@ plt.plot(x3, y3, label="Body 3")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.title("Three-Body Figure-Eight Orbit")
+#plt.title("Perturbed Three-Body Figure-Eight Orbit")
 
 plt.axis("equal")
 plt.legend()
 plt.grid()
+
+'''plt.tight_layout()
+
+plt.savefig(
+    "perturbed_figure_eight.png",
+    dpi=300,
+    bbox_inches="tight"
+)'''
 
 plt.show()
 
@@ -151,6 +160,10 @@ def update(frame):
 
     return trail1, trail2, trail3, body1, body2, body3
 
+
+import matplotlib.pyplot as plt
+# Increase the embedding limit to 50 MB to allow the complete animation
+plt.rcParams["animation.embed_limit"] = 50
 
 animation = FuncAnimation(
     fig,
