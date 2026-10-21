@@ -28,9 +28,12 @@ We consider the Sun-Earth system and place a satellite at L1. The five Lagrange 
 ```text
 ODE-Numerical-Methods
 ├── Numerical-Methods/
-|   ├── euler's_method.cpp
-|   └── 
+│   ├── euler's_method.cpp
+│   └── 
 ├── Three-body-ODE/
+│   ├── Three_body_ODE.pdf
+│   ├── figure_eight.py
+│   └── lagrange_points.py
 └── 
 ```
 
