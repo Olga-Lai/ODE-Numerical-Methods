@@ -27,7 +27,9 @@ We consider the Sun-Earth system and place a satellite at L1. The five Lagrange 
 ## Directory Structure
 ```text
 ODE-Numerical-Methods
-│
+├── Numerical-Methods/
+|   ├── euler's_method.cpp
+|   └── 
 ├── Three-body-ODE/
 └── 
 ```
