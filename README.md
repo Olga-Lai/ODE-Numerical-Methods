@@ -1,6 +1,19 @@
 # ODE-Numerical-Methods
 A collection of numerical methods for solving ordinary differential equations (ODEs), including mathematical formulations, implementations, and simulations.
 
+## What's Covered
+
+Each method includes not only a C++ implementation but also the mathematical concepts behind the algorithm.
+
+### Numerical Methods
+| Key Concepts |
+|---------------------|
+| Lipschitz condition, Existence and Uniqueness Theorem |
+
+| Methods |
+|---------------------|
+| Euler's method |
+
 ## Figure-Eight orbit
 This is a periodic, symmetric orbit in which the three bodies follow a figure-eight trajectory in the plane. The three bodies chase one another along the same figure-eight-shaped curve.
 <p align="center">
