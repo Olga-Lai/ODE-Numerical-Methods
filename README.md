@@ -8,7 +8,7 @@ Each method includes not only a C++ implementation but also the mathematical con
 ### Numerical Methods
 | Key Concepts |
 |---------------------|
-| Lipschitz condition, Existence and Uniqueness Theorem |
+| Lipschitz condition, Existence and Uniqueness Theorem, Continuous Dependence on Initial Conditions |
 
 | Methods |
 |---------------------|
