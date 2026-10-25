@@ -25,7 +25,7 @@ std::vector<Point> euler(
 
     result.push_back({t, y});
 
-    for (int n = 0; n < steps; ++n) {
+    for (int n = 0; n < steps; n++) {
         y = y + h * f(t, y);
         t = t0 + (n + 1) * h;
 
@@ -49,7 +49,7 @@ int main() {
     auto solution = euler(f, t0, y0, h, steps);
 
     std::cout << std::fixed << std::setprecision(6);
-    std::cout << "t\tEuler\t\tExact\t\tAbs. Error\n";
+    std::cout << "t\t\t\tEuler\t\tExact\t\tAbs.Error\n";
 
     for (const auto& p : solution) {
         double exact = 3*std::exp(p.t*p.t/2)-p.t*p.t-2;
