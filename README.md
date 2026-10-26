@@ -12,7 +12,7 @@ Each method includes not only a C++ implementation but also the mathematical con
 
 | Methods |
 |---------------------|
-| Euler's method, Trapezoid method |
+| Euler's method, Trapezoid method, Midpoint method |
 
 ## Figure-Eight orbit
 This is a periodic, symmetric orbit in which the three bodies follow a figure-eight trajectory in the plane. The three bodies chase one another along the same figure-eight-shaped curve.
@@ -44,7 +44,8 @@ ODE-Numerical-Methods
 ├── Numerical-Methods/
 │   ├── Ordinary_Differential_Equations.pdf
 │   ├── euler's_method.cpp
-│   └── trapezoid_method.cpp
+│   ├── trapezoid_method.cpp
+│   └── midpoint_method.cpp
 │   
 └── Three-body-ODE/
     ├── Three_body_ODE.pdf
