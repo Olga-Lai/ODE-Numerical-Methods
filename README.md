@@ -1,5 +1,7 @@
 # ODE-Numerical-Methods
-A collection of numerical methods for solving ordinary differential equations (ODEs), including mathematical formulations, implementations, and simulations.
+A collection of C++ implementations and mathematical studies of numerical methods for ordinary differential equations (ODEs). This project explores the theoretical foundations of numerical algorithms, including existence and uniqueness, continuous dependence on initial conditions, and convergence analysis.
+
+The repository covers initial value problems (IVPs), boundary value problems (BVPs), and numerical simulations of dynamical systems.
 
 ## What's Covered
 
