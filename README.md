@@ -51,7 +51,7 @@ ODE-Numerical-Methods
 │   ├── trapezoid_method.cpp
 │   ├── midpoint_method.cpp
 │   ├── runge-kutta_method.cpp
-│   └── fem.cpp
+│   └── fdm.cpp
 │   
 └── Three-body-ODE/
     ├── Three_body_ODE.pdf
