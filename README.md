@@ -10,9 +10,13 @@ Each method includes not only a C++ implementation but also the mathematical con
 |---------------------|
 | Lipschitz condition, Existence and Uniqueness Theorem, Continuous Dependence on Initial Conditions |
 
-| Methods |
+| Methods (IVP) |
 |---------------------|
 | Euler's method, Trapezoid method, Midpoint method, Runge-Kutta method |
+
+| Methods (BVP) |
+|---------------------|
+| Finite Difference Method (FDM) |
 
 ## Figure-Eight orbit
 This is a periodic, symmetric orbit in which the three bodies follow a figure-eight trajectory in the plane. The three bodies chase one another along the same figure-eight-shaped curve.
@@ -46,7 +50,8 @@ ODE-Numerical-Methods
 │   ├── euler's_method.cpp
 │   ├── trapezoid_method.cpp
 │   ├── midpoint_method.cpp
-│   └── runge-kutta_method.cpp
+│   ├── runge-kutta_method.cpp
+│   └── fem.cpp
 │   
 └── Three-body-ODE/
     ├── Three_body_ODE.pdf
