@@ -8,17 +8,20 @@ The repository covers initial value problems (IVPs), boundary value problems (BV
 Each method includes not only a C++ implementation but also the mathematical concepts behind the algorithm.
 
 ### Numerical Methods
-| Key Concepts |
-|---------------------|
-| Lipschitz condition, Existence and Uniqueness Theorem, Continuous Dependence on Initial Conditions |
+#### 1. Theoretical Foundations
+- Lipschitz condition
+- Existence and Uniqueness Theorem
+- Continuous Dependence on Initial Conditions
 
-| Methods (IVP) |
-|---------------------|
-| Euler's method, Trapezoid method, Midpoint method, Runge-Kutta method |
+#### 2. Initial Value Problems (IVP)
+- Euler's Method
+- Explicit Trapezoidal Method
+- Midpoint Method
+- Runge-Kutta Methods
 
-| Methods (BVP) |
-|---------------------|
-| Finite Difference Method (FDM), Finite Element Method (FEM) |
+#### 3. Boundary Value Problems (BVP)
+- Finite Difference Method (FDM)
+- Finite Element Method (FEM)
 
 ## Figure-Eight orbit
 This is a periodic, symmetric orbit in which the three bodies follow a figure-eight trajectory in the plane. The three bodies chase one another along the same figure-eight-shaped curve.
