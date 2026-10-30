@@ -7,19 +7,18 @@ The repository covers initial value problems (IVPs), boundary value problems (BV
 
 Each method includes not only a C++ implementation but also the mathematical concepts behind the algorithm.
 
-### Numerical Methods
-#### 1. Theoretical Foundations
+### 1. Theoretical Foundations
 - Lipschitz condition
 - Existence and Uniqueness Theorem
 - Continuous Dependence on Initial Conditions
 
-#### 2. Initial Value Problems (IVP)
+### 2. Initial Value Problems (IVP)
 - Euler's Method
 - Explicit Trapezoidal Method
 - Midpoint Method
 - Runge-Kutta Methods
 
-#### 3. Boundary Value Problems (BVP)
+### 3. Boundary Value Problems (BVP)
 - Finite Difference Method (FDM)
 - Finite Element Method (FEM)
 
